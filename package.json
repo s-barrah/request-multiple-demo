@@ -33,7 +33,7 @@
     "test": "./node_modules/.bin/mocha \"tests/**/*.ts\" --require ts-node/register",
     "lint": "eslint 'src/**/*.{js,ts}' --quiet --fix",
     "build": "rimraf ./dist && NODE_ENV=production tsc",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release --branches main"
   },
   "husky": {
     "hooks": {
