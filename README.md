@@ -82,7 +82,6 @@ On your terminal console,
 Tests are located in the tests folder an can be invoked by running `yarn test`.
 
 
-
 # Semantic release
 Release management is automated using [semantic-release](https://www.npmjs.com/package/semantic-release).
 
