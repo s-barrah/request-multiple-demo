@@ -1,6 +1,6 @@
 {
   "name": "request-multiple-demo",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Request Multiple Library",
   "main": "dist/index.js",
   "module": "dist/index.js",

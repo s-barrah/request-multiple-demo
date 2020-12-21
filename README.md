@@ -1,25 +1,34 @@
 # request-multiple-demo
 
-Simple library for making multiple data requests from an array of URLs. It also has supports and optimizes large requests by chunking larger arrays.
+Simple library for fetching an array of URLs containing JSON data and returning their contents. It also has supports and optimizes requests by chunking larger arrays.
 
 
 ## Install
 ```bash
 // Via NPM
-$ npm install --save request-multiple-library
+$ npm install --save request-multiple-demo
 
 // Via Yarn
-$ yarn add request-multiple-library
+$ yarn add request-multiple-demo
 ```
 
 ## Usage
 
 ```javascript
-import requestMultipleUrls from "request-multiple-library";
+import requestMultipleUrls from "request-multiple-demo";
 const urls = [
-            'https://ft-tech-test-example.s3-eu-west-1.amazonaws.com/ftse-fsi.json',
-            'https://ft-tech-test-example.s3-eu-west-1.amazonaws.com/gbp-hkd.json',
-            'https://ft-tech-test-example.s3-eu-west-1.amazonaws.com/gbp-usd.json'
+            'http://example-1.com/data.json',
+            'http://example-2.com/data.json',
+            'http://example-3.com/data.json',
+            'http://example-4.com/data.json',
+            'http://example-5.com/data.json',
+            'http://example-6.com/data.json',
+            'http://example-7.com/data.json',
+            'http://example-8.com/data.json',
+            'http://example-9.com/data.json',
+            'http://example-10.com/data.json',
+            'http://example-11.com/data.json',
+            'http://example-12.com/data.json'
 ]
 
 
@@ -28,9 +37,7 @@ requestMultipleUrls(urls)
   console.log(data)
  // { status: 'success', message: [{symbolInput: 'FTSE:FSI', basic: {}, quote: {} }]}
 })
-.catch((error) => {
-
-})
+.catch((error) => console.error(error))
 
 ```
 
@@ -45,11 +52,11 @@ The array of urls.
 
 #### Example
 ```javascript
-import requestMultipleUrls from "request-multiple-library";
+import requestMultipleUrls from "request-multiple-demo";
 const urls = [
-            'https://ft-tech-test-example.s3-eu-west-1.amazonaws.com/ftse-fsi.json',
-            'https://ft-tech-test-example.s3-eu-west-1.amazonaws.com/gbp-hkd.json',
-            'https://ft-tech-test-example.s3-eu-west-1.amazonaws.com/gbp-usd.json'
+            'http://example-1.com/data.json',
+            'http://example-2.com/data.json',
+            'http://example-3.com/data.json',
 ]
 
 
