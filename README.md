@@ -1,3 +1,8 @@
+[![CircleCI](https://circleci.com/gh/s-barrah/request-multiple-demo.svg?style=svg)](https://app.circleci.com/pipelines/github/s-barrah/encrypt-decrypt-library)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![semantic-release](https://badge.fury.io/js/request-multiple-demo.svg)](https://www.npmjs.com/package/request-multiple-demo)
+
+
 # request-multiple-demo
 
 Simple library for fetching an array of URLs containing JSON data and returning their contents. It also has supports and optimizes requests by chunking larger arrays.
