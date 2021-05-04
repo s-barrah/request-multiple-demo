@@ -2,9 +2,9 @@
   "name": "request-multiple-demo",
   "version": "0.0.0-development",
   "description": "Request Multiple Library",
-  "main": "dist/request-multiple.js",
-  "module": "dist/request-multiple.js",
-  "types": "dist/request-multiple.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "author": "Sidney Barrah",
   "license": "MIT",
   "devDependencies": {
